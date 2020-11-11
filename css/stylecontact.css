@@ -15,10 +15,14 @@
 }
 nav 
 {
-    background-color: rgb(77, 202, 66) !important;
+    background-color: rgb(77, 202, 66);
     height: 80px;
     width: 100%;
     position: relative;
+}
+nav .row
+{
+    width: 100%;
 }
 .logo
 {
@@ -36,6 +40,7 @@ nav
 nav ul
 {
     float: right;
+    margin-right: 20px;
 }
 nav ul li
 {
@@ -52,27 +57,14 @@ nav ul li a
     padding: 6px 14px;
     border-radius: 6px;
     text-decoration: none;
+    text-decoration-style: none;
 }
-a.active, .menus li a:hover
+a.active, a:hover
 {
-    background-color: rgb(150, 225, 255) !important;
+    background-color: rgb(150, 225, 255);
     transition: 0.5s;
     border-radius: 30px;
     text-decoration: none;
-}
-.checkbtn
-{
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px;
-    margin-right: 20px;
-    cursor: pointer;
-    display: none;
-}
-#check 
-{
-    display: none;
 }
 
 /* Contact  */

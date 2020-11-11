@@ -20,6 +20,10 @@ nav
     width: 100%;
     position: relative;
 }
+nav .row
+{
+    width: 100%;
+}
 .logo
 {
     color: white;
@@ -44,6 +48,7 @@ nav ul li
     line-height: 80px;
     margin: 0 5px;
     text-decoration: none;
+    text-decoration-style: none;
 }
 nav ul li a
 {
@@ -65,7 +70,7 @@ a.active, a:hover
 /* About  */
 .container-fluid
 {
-    padding: 10px 20px;
+    padding: 10px 40px;
     background-color: transparent;
     height: auto;
 }
